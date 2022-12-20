@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Dictionary app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1>Dictionary</h1>
+        </div>
+    </nav>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="newWords.html">New Words</a>
+        <a href="idioms.html">Idioms</a>
+        <a href="phrases.html">Phrases</a>
+        <a href="helpDesk.html">Help Desk</a>
+      </div>
+    </nav>
+
+    <section class="input container">
+        <h2>Look for the Meaning</h2>
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Type a word" id="input">
+                <button id="search">Go</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="data container">
+        <span class="loading">Loading...</span>
+        <p class="def"></p> 
+        <div class="audio"></div>
+        <div class="not__found"></div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
